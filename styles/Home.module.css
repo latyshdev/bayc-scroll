@@ -19,7 +19,7 @@
 }
 
 .mint{
-  background: url("./../public/img/connect.png") repeat-x 0 0 #0099ff00;
+  background: url("../public/img/connect.png") repeat-x 0 0 #0099ff00;
   width: 33%;
   height: 12%;
   border: none;

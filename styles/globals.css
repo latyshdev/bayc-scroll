@@ -87,7 +87,7 @@ body {
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: url('./../public/img/scrollBAYC.jpg');
+  background: url('../public/img/scrollBAYC.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
