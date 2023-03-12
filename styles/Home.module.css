@@ -1,10 +1,39 @@
 .main {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
+}
+
+.mint_box{
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mint{
+  background: url("./../public/img/connect.png") repeat-x 0 0 #0099ff00;
+  width: 33%;
+  height: 12%;
+  border: none;
+  background-repeat: no-repeat;
+  background-size: contain;
+  top: 170px;
+  position: relative;
+  background-position: center;
+  opacity: 0.7;
+}
+
+.mint:hover{
+  opacity: 1;
+  cursor: pointer;
 }
 
 .description {
@@ -276,3 +305,4 @@
     transform: rotate(0deg);
   }
 }
+
